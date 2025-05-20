@@ -1,0 +1,22 @@
+//Azure DevOps/CIS/DP8300/Boards/查询
+
+一、通过4Q缺陷报告所需，新建查询的结果需要增加多个列选项，分别是根源、创建时间、关闭时间、严重级别，来源。
+
+二、来源的区别
+在平台上有查询的分类来源 1.DP测试             、2.GD测试（猜测是公司发现与客户发现，待问证）
+在4Q缺陷报告图表表头有   1.System test DP 、2.GD test+field（猜测与来源有关，待问证）
+
+三、4Q表格与对应项目
+PN 1.5		     ：DP8100
+PN 300		     :   DP7300Plus
+PN BVM		     :   DP5100
+PN 500                          :   DP8150
+PN 2000            	     :   DP8300
+
+四、PN-500缺失对应机型DP8150
+PN-500对应机型在平台的CIS没有查到该项目，在Azure DevOps/CIS/币种/搜索PN-500，对应的两个缺陷均无链接对应机型，两个缺陷在区域（A）归类币种，迭代（R）归类币种。
+
+五、客户需求库
+Azure DevOps/DefaultCollection/客户需求/Repos/文件/客户需求  需要在归档到OEM名称登记表（路径如下）
+Azure DevOps/DefaultCollection/配置管理库/Repos/文件//配置管理库/产品库/公共/软件资源编号管理表/DP-E-88_94 软件资源编号管理表.xls
+
